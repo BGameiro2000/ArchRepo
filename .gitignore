@@ -1,0 +1,13 @@
+*.exe
+*.msi
+*.log
+*.log.*
+*.sig
+
+pkg/
+src/
+
+/pkg/**/pkg/
+/pkg/**/src/
+
+*.old
