@@ -1,6 +1,10 @@
-# BGameiro's dotfiles - repository
+---
+category: Readme
+title: 'Pacman Custom Repository'
+type: 'INFO'
+---
 
-<img style="filter:hue-rotate(150deg)" align="right" width="100" height="auto" src="../Media/Repo/dotfiles-logo.png">
+# BGameiro's custom repository
 
 My personal repository with meta-packages that include all the packages from the ArchLinux Official Repository that I use, yay and a script to install all the packages from the ArchLinux User Repository.
 
