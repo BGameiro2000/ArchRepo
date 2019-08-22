@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-utils'
-pkgver=0.6
+pkgver=0.7
 pkgrel=1
 pkgdesc="Utilities for BGameiro systems"
 arch=(any)
@@ -31,7 +31,8 @@ depends=(
 	#Capture and display
     'maim'
     'obs-studio'
-	'mupdf'
+	'zathura'
+	'zathura-pdf-mupdf'
 	'feh'
 
 	#Audio

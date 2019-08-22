@@ -11,3 +11,8 @@ src/
 /pkg/**/src/
 
 *.old
+
+*.files
+*.files.*
+*.db
+*.db.*
