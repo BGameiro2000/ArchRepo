@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-codecs'
-pkgver=0.1
+pkgver=2019.08.24.1
 pkgrel=1
 pkgdesc="Codecs for BGameiro systems"
 arch=(any)

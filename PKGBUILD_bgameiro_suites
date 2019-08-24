@@ -31,7 +31,7 @@ depends=(
 	#3D
     'blender'
 )
-pkgver=0.2
+pkgver=2019.08.24.1
 pkgrel=1
 pkgdesc="Software suites for BGameiro systems"
 arch=(any)

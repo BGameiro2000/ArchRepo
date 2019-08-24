@@ -9,7 +9,7 @@ depends=(
     'bgameiro-suites'
     'bgameiro-utils'
 )
-pkgver=0.1
+pkgver=2019.08.24.1
 pkgrel=1
 pkgdesc="Packages for BGameiro systems"
 arch=(any)

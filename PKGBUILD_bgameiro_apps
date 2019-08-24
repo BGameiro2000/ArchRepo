@@ -21,7 +21,7 @@ depends=(
     #Terminal
     'rxvt-unicode'
 )
-pkgver=0.2
+pkgver=2019.08.24.1
 pkgrel=1
 pkgdesc="Apps for BGameiro systems"
 arch=(any)

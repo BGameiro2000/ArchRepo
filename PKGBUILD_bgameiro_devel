@@ -28,7 +28,7 @@ depends=(
 	#Archiso
 	'archiso'
 )
-pkgver=0.3
+pkgver=2019.08.24.1
 pkgrel=1
 pkgdesc="Development packages for BGameiro systems"
 arch=(any)

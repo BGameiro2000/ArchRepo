@@ -84,7 +84,7 @@ depends=(
     'papirus-icon-theme'
     #python-pywal
 )
-pkgver=0.5
+pkgver=2019.08.24.1
 pkgrel=1
 pkgdesc="Desktop and basic packages for BGameiro systems"
 arch=(any)
