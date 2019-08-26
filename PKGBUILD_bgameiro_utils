@@ -1,11 +1,17 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+
 pkgname='bgameiro-utils'
-pkgver=2019.08.24.1
-pkgrel=1
 pkgdesc="Utilities for BGameiro systems"
+
+DATE=$(date +"%Y.%m.%d")
+VER=1
+pkgver="$DATE.$VER"
+pkgrel=1
+
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
-license=(GNU GPLv3)
+license=(gpl-3.0)
+
 depends=(
 	#Sensors
 	'lm_sensors'

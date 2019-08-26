@@ -1,5 +1,17 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+
 pkgname='bgameiro-apps'
+pkgdesc="Apps for BGameiro systems"
+
+DATE=$(date +"%Y.%m.%d")
+VER=1
+pkgver="$DATE.$VER"
+pkgrel=1
+
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(gpl-3.0)
+
 depends=(
     #Browser
     'firefox-developer-edition'
@@ -21,9 +33,3 @@ depends=(
     #Terminal
     'rxvt-unicode'
 )
-pkgver=2019.08.24.1
-pkgrel=1
-pkgdesc="Apps for BGameiro systems"
-arch=(any)
-url="https://github.com/bgameiro/dotfiles/arch-repo"
-license=(GNU GPLv3)

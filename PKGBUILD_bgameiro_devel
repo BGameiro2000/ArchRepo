@@ -1,5 +1,17 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+
 pkgname='bgameiro-devel'
+pkgdesc="Development packages for BGameiro systems"
+
+DATE=$(date +"%Y.%m.%d")
+VER=1
+pkgver="$DATE.$VER"
+pkgrel=1
+
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(gpl-3.0)
+
 depends=(
 	#Editors
     'code'
@@ -28,9 +40,3 @@ depends=(
 	#Archiso
 	'archiso'
 )
-pkgver=2019.08.24.1
-pkgrel=1
-pkgdesc="Development packages for BGameiro systems"
-arch=(any)
-url="https://github.com/bgameiro/dotfiles/arch-repo"
-license=(GNU GPLv3)

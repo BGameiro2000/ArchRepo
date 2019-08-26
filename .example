@@ -1,11 +1,17 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname=
-pkgver=0.1
+
+pkgname=''
+pkgdesc=""
+
+DATE=$(date +"%Y.%m.%d")
+VER=1
+pkgver="$DATE.$VER"
 pkgrel=1
-pkgdesc=" for BGameiro systems"
+
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
-license=(GNU GPLv3)
+license=(gpl-3.0)
+
 depends=(
     ''
 )
